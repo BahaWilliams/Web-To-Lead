@@ -13,7 +13,7 @@
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DgK0000065yOI" method="POST">
 
 <input type=hidden name="oid" value="00DgK0000065yOI">
-<input type=hidden name="retURL" value="https://bahawilliams.github.io/Web-To-Lead/index.html">
+<input type=hidden name="retURL" value="http://">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -22,8 +22,6 @@
 <!--  <input type="hidden" name="debugEmail"                                  -->
 <!--  value="bahawilliamsazael@gmail.com">                                    -->
 <!--  ----------------------------------------------------------------------  -->
-
-<label for="salutation">Salutation</label><input  id="salutation" maxlength="40" name="salutation" size="20" type="text" /><br>
 
 <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 
@@ -656,6 +654,14 @@
 <option value="53">53</option>
 <option value="ZA">ZA</option>
 <option value="33">33</option>
+</select><br>
+
+<label for="salutation">Salutation</label><select  id="salutation" name="salutation"><option value="">--None--</option><option value="Mr.">Mr.</option>
+<option value="Ms.">Ms.</option>
+<option value="Mrs.">Mrs.</option>
+<option value="Dr.">Dr.</option>
+<option value="Prof.">Prof.</option>
+<option value="Mx.">Mx.</option>
 </select><br>
 
 <input type="submit" name="submit">
